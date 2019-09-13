@@ -1,7 +1,6 @@
 # Spring Cloud Config Server MongoDB
 
-[![build-status](https://travis-ci.org/spring-cloud-incubator/spring-cloud-config-server-mongodb.svg?branch=master)](https://travis-ci.org/spring-cloud-incubator/spring-cloud-config-server-mongodb)
-[![Join the chat at https://gitter.im/spring-cloud-incubator/spring-cloud-config-server-mongodb](https://badges.gitter.im/spring-cloud-incubator/spring-cloud-config-server-mongodb.svg)](https://gitter.im/spring-cloud-incubator/spring-cloud-config-server-mongodb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![build-status](https://travis-ci.org/InterclypseInc/spring-cloud-config-server-mongodb.svg?branch=master)](https://travis-ci.org/InterclypseInc/spring-cloud-config-server-mongodb.svg)
 
 Spring Cloud Config Server MongoDB enables seamless integration of the regular Spring Cloud Config Server with MongoDB to manage external properties for applications across all environments.
 
@@ -10,7 +9,7 @@ Configure pom.xml, like this:
 ```xml
 <dependencies>
     <dependency>
-        <groupId>org.springframework.cloud</groupId>
+        <groupId>com.interclypse</groupId>
         <artifactId>spring-cloud-config-server-mongodb</artifactId>
         <version>0.0.3.BUILD-SNAPSHOT</version>
     </dependency>
